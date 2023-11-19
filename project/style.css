@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(206, 245, 248);
+}
+
+
+
+.navbar {
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+}
+
+.midSection {
+
+  padding: 20px;
+}
+
+.imgresponsive {
+  background: url('../images/sliderImage.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.menu ul {
+  display: flex;
+  gap: 50px;
+}
+
+.menu ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+a:hover {
+  color: black;
+}
+
+.lastSection {
+  padding: 20px;
+}
+
+.lastSection,
+h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+}
+
+.lastSection,
+.btnLeft p {
+  text-align: end;
+}
+
+.footerSection {
+  background-color: black;
+}
